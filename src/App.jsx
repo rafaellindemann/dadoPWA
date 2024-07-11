@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Dado D20</h1>
-        <button onClick={generateRandomNumber}>Gerar Número</button>
         {number && <p className='numero'>{number}</p>}
+        <button onClick={generateRandomNumber}>Gerar Número</button>
       </header>
     </div>
   );
