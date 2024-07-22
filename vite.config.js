@@ -12,7 +12,7 @@ export default defineConfig({
         name: 'Gerador de Número Aleatório',
         short_name: 'RNG',
         description: 'Um simples gerador de número aleatório',
-        theme_color: '#ffffff',
+        theme_color: '#000',
         icons: [
           {
             src: '/favicon.ico',
